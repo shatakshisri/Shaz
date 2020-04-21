@@ -1,0 +1,95 @@
+
+    <mat-toolbar color="warn">
+        <mat-toolbar-row>
+          <a (click)="home()" class="display-5" style="cursor: pointer;">Shaz Hoopla</a>
+          <span class="example-spacer"></span>
+          <span>Hey {{username}} <mat-icon>mood</mat-icon></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button mat-button (click)="goBack()">Back to shopping</button>
+        </mat-toolbar-row>
+      </mat-toolbar>
+<body>
+<div *ngIf="productLoaded">
+    <div class="row">
+        <div class="col-md-2 col-lg-2 col-sm-2"></div>
+        <div class="col-md-3 col-lg-3 col-sm-3" style="margin-left: 100px; margin-top: 10px">
+            
+            <img style="border: solid brown 1px;" width="200px" height="400px" width="500px" src="./assets/img/{{prodData.image}}" alt="Unable fetch the image!">
+                <h5>{{prodData.pName}}</h5>
+        </div>
+
+        <div class="offset-1" style="margin-top: 30px">
+            <ul>
+                <li>
+                    <h4 style="display: inline"><u>Category:</u> </h4><br>
+                    {{prodData.pCategory}}
+                </li>
+                
+                
+                <li>
+                   <h4 style="display: inline"><u>Seller information:</u> </h4><br>
+                    {{prodData.pSeller.s_Id}}
+                </li>
+                
+                <li>
+                    <h4 style="display: inline"><u>Description:</u> </h4>
+                </li>
+                
+                    <span style="font-family:verdana;">{{prodData.pDescription}}</span>
+                
+                <li>
+                    <h4 style="display: inline"><u>Specifications:</u> </h4>
+                </li>
+                <span>Color: {{prodData.color}}</span> 
+                
+                <li>
+                    <h4 style="display: inline"><u>Rating:</u> </h4> <br>
+                    <span >{{prodData.pRating}}/5 stars</span>
+                </li>
+                
+                <li>
+                    <h4 style="display: inline"><u>Price:</u></h4> &nbsp;
+                    <br>
+                    <h6 style="display: inline" class="text-primary"> {{ discountPrice | currency :'INR' :'symbol' }} </h6> &nbsp;
+                    <h6 class="text-secondary" style="display: inline">
+                        <s>{{ actualPrice | currency :'INR' :'symbol' }}</s>
+                    </h6>
+
+                    
+                </li>
+                <li>
+                    <h4 style="display: inline"><u>Special Offer:</u> </h4> <br>
+                    <h5>
+                        <span class="text-info"> {{prodData.pSeller.pDiscount*100}}% Off</span>
+                        <span>+ {{prodData.pSeller.pShippingCharges}} Shipping charges</span>
+                    </h5>
+                </li>
+                
+                <li>
+                    <h4 style="display: inline"><u>In Stock:</u> </h4>
+                    <h5>
+                        <font face="verdana">{{prodData.pSeller.pQuantity}}</font>
+                    </h5>
+                </li>
+            </ul>
+           <div *ngIf="prodData.pSeller.pQuantity>0;else n" >
+            &nbsp;
+            &nbsp;
+            &nbsp;
+               <button mat-raised-button class="btn btn-success" (click)="buyProd(prodData)">Buy Now</button>
+               <p *ngIf="successmgs && prodData._id==orderedPid" class="alert alert-success">Ordered Successfully!!</p>
+           </div>
+           
+           <ng-template #n>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+                <button mat-raised-button class="btn btn-danger" (click)="notify(prodData)">Notify</button>
+                &nbsp;
+                <strong class="text-danger">Not in Stock!</strong>
+                <div *ngIf="notifyPid && prodData._id==notifyPid" class="alert alert-danger">Notification will be sent!</div>
+           </ng-template>
+            </div>
+           
+    </div>
+</div>
+</body>

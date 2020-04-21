@@ -1,0 +1,6 @@
+body{
+    background-color: bisque;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }

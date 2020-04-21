@@ -1,0 +1,53 @@
+<mat-toolbar color="warn">
+  <mat-toolbar-row>
+    <span>Shaz Hoopla</span>
+  </mat-toolbar-row>
+</mat-toolbar>
+<body style="background-color: bisque;">
+<div class="col-md-4 col-lg-4 col-sm-4 offset-md-4 offset-lg-4 offset-sm-4">
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <div class="example-container">
+          <br>
+<br>
+<br>
+          <div class="card">
+            <div class="card-header">
+        <h3 style="font-weight: 100; margin-top:10px; text-align: center;" class="text-secondary font-weight-bold">Login To Explore</h3></div>
+       <br>
+       <div class="card-body">
+       <span class="text-danger" *ngIf="loginForm.controls.uName.errors?.required">*Mandatory Field*</span>&nbsp;
+       <br>
+        <mat-form-field class="full-width">
+            <mat-label>Username</mat-label>
+            <input matInput placeholder="Enter Username" type="text" formControlName="uName" id="name" name="username">
+          </mat-form-field>
+          <span class="text-danger" *ngIf="loginForm.controls.uName.errors?.emailIdError">
+            *{{loginForm.controls.uName.errors?.emailIdError.message}}*
+        </span>
+        <br>
+          <br>
+          <span class="text-danger" *ngIf="loginForm.controls.pwd.errors?.required">*Mandatory Field*</span>
+            <mat-form-field class="full-width">
+                <mat-label>Password</mat-label>
+                <input type="password" matInput placeholder="Enter Password" formControlName="pwd" id="pass" name="password">
+              </mat-form-field>   
+              <button mat-button mat-button color="primary" name="lSubmit" [disabled]="loginForm.invalid" 
+              class="buy-now-button space">LOGIN
+            </button>
+            </div>
+          <span class="text-danger">{{errorMessage}}</span>
+          </div>
+        </div>
+    </form>
+
+    
+</div>
+
+
+</body>
+    
+  
+  
+
+ 
+

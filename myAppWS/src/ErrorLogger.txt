@@ -1,0 +1,221 @@
+Wed Apr 15 2020 08:44:23 GMT+0530 (India Standard Time) - BulkWriteError: E11000 duplicate key error collection: UsersDB.Product index: _id_ dup key: { _id: 1000 }
+    at OrderedBulkOperation.handleWriteError (C:\Users\khushbusharma\Desktop\Project_FA4\ShopWS\node_modules\mongodb\lib\bulk\common.js:1210:11)
+    at resultHandler (C:\Users\khushbusharma\Desktop\Project_FA4\ShopWS\node_modules\mongodb\lib\bulk\common.js:519:23)
+    at C:\Users\khushbusharma\Desktop\Project_FA4\ShopWS\node_modules\mongodb\lib\core\connection\pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Wed Apr 15 2020 08:49:38 GMT+0530 (India Standard Time) - BulkWriteError: E11000 duplicate key error collection: ProdutDb.Product index: _id_ dup key: { _id: 1000 }
+    at OrderedBulkOperation.handleWriteError (C:\Users\khushbusharma\Desktop\Project_FA4\ShopWS\node_modules\mongodb\lib\bulk\common.js:1210:11)
+    at resultHandler (C:\Users\khushbusharma\Desktop\Project_FA4\ShopWS\node_modules\mongodb\lib\bulk\common.js:519:23)
+    at C:\Users\khushbusharma\Desktop\Project_FA4\ShopWS\node_modules\mongodb\lib\core\connection\pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Wed Apr 15 2020 08:50:10 GMT+0530 (India Standard Time) - BulkWriteError: E11000 duplicate key error collection: Dbcollection.Product index: _id_ dup key: { _id: 1000 }
+    at OrderedBulkOperation.handleWriteError (C:\Users\khushbusharma\Desktop\Project_FA4\ShopWS\node_modules\mongodb\lib\bulk\common.js:1210:11)
+    at resultHandler (C:\Users\khushbusharma\Desktop\Project_FA4\ShopWS\node_modules\mongodb\lib\bulk\common.js:519:23)
+    at C:\Users\khushbusharma\Desktop\Project_FA4\ShopWS\node_modules\mongodb\lib\core\connection\pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Wed Apr 15 2020 20:26:41 GMT+0530 (India Standard Time) - BulkWriteError: E11000 duplicate key error collection: Dbcollection.Product index: _id_ dup key: { _id: 1003 }
+    at OrderedBulkOperation.handleWriteError (C:\Users\khushbusharma\Desktop\Project_FA4\ShopWS\node_modules\mongodb\lib\bulk\common.js:1210:11)
+    at resultHandler (C:\Users\khushbusharma\Desktop\Project_FA4\ShopWS\node_modules\mongodb\lib\bulk\common.js:519:23)
+    at C:\Users\khushbusharma\Desktop\Project_FA4\ShopWS\node_modules\mongodb\lib\core\connection\pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Sat Apr 18 2020 19:13:05 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "undefined" at path "_id" for model "Product"
+    at new CastError (C:\Users\CPU\Desktop\Project_FA4 - Copy\myApp\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\CPU\Desktop\Project_FA4 - Copy\myApp\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\CPU\Desktop\Project_FA4 - Copy\myApp\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\CPU\Desktop\Project_FA4 - Copy\myApp\src\model\user.js:42:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 18 2020 19:14:04 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "undefined" at path "_id" for model "Product"
+    at new CastError (C:\Users\CPU\Desktop\Project_FA4 - Copy\myApp\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\CPU\Desktop\Project_FA4 - Copy\myApp\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\CPU\Desktop\Project_FA4 - Copy\myApp\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\CPU\Desktop\Project_FA4 - Copy\myApp\src\model\user.js:42:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:10:45 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:80:39
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:10:53 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:80:39
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:10:54 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:80:39
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:11:11 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:80:39
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:11:21 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:80:39
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:11:30 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:80:39
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:16:35 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:80:39
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:16:52 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:80:39
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:20:43 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:81:39
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:24:54 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:81:39
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:28:53 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:81:39
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:29:20 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:81:39
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:31:16 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:81:39
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:32:59 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:81:39
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:36:04 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:81:39
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:37:30 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:81:39
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:37:38 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:81:39
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:43:02 GMT+0530 (India Standard Time) - Error: Purchase Failed
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:81:39
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:43:35 GMT+0530 (India Standard Time) - ReferenceError: allOrders is not defined
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\routes\route.js:69:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:45:07 GMT+0530 (India Standard Time) - ReferenceError: allOrders is not defined
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\routes\route.js:69:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:45:14 GMT+0530 (India Standard Time) - ReferenceError: allOrders is not defined
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\routes\route.js:69:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:46:22 GMT+0530 (India Standard Time) - ReferenceError: allOrders is not defined
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\routes\route.js:69:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:46:29 GMT+0530 (India Standard Time) - ReferenceError: allOrders is not defined
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\routes\route.js:69:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:46:34 GMT+0530 (India Standard Time) - ReferenceError: allOrders is not defined
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\routes\route.js:69:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:48:21 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "Shaz97" at path "_id" for model "Product"
+    at new CastError (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:42:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:49:29 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "Shaz97" at path "_id" for model "Product"
+    at new CastError (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:42:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:49:33 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "Shaz97" at path "_id" for model "Product"
+    at new CastError (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:42:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:49:34 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "Shaz97" at path "_id" for model "Product"
+    at new CastError (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:42:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:49:41 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "Shaz97" at path "_id" for model "Product"
+    at new CastError (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:42:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:50:26 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "Shaz97" at path "_id" for model "Product"
+    at new CastError (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:42:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:51:45 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "Shaz97" at path "_id" for model "Product"
+    at new CastError (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:42:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 14:59:22 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "Shaz97" at path "_id" for model "Product"
+    at new CastError (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:42:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 15:02:42 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "Shaz97" at path "_id" for model "Product"
+    at new CastError (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:42:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 15:02:51 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "Shaz97" at path "_id" for model "Product"
+    at new CastError (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:42:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 15:11:22 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "Shaz97" at path "_id" for model "Product"
+    at new CastError (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:42:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 15:11:28 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "Shaz97" at path "_id" for model "Product"
+    at new CastError (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:42:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 15:12:08 GMT+0530 (India Standard Time) - CastError: Cast to number failed for value "Shaz97" at path "_id" for model "Product"
+    at new CastError (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\error\cast.js:29:11)
+    at model.Query.exec (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4340:21)
+    at model.Query.Query.then (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\mongoose\lib\query.js:4432:15)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:42:54
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 15:12:30 GMT+0530 (India Standard Time) - TypeError: dbLayer.getAllOrder is not a function
+    at Object.user.getAllOrders (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\service\user.js:18:20)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\routes\route.js:57:13
+    at Layer.handle [as handle_request] (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\node_modules\express\lib\router\index.js:284:7
+Sun Apr 19 2020 15:42:28 GMT+0530 (India Standard Time) - Error: unable to get orders
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:62:29
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 15:42:46 GMT+0530 (India Standard Time) - Error: unable to get orders
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:62:29
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 15:43:00 GMT+0530 (India Standard Time) - Error: unable to get orders
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:62:29
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sun Apr 19 2020 15:43:35 GMT+0530 (India Standard Time) - Error: unable to get orders
+    at C:\Users\CPU\Desktop\Shaz 1080494\myAppWS\src\model\user.js:62:29
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)

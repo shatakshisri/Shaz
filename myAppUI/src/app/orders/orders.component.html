@@ -1,0 +1,27 @@
+<body style="background-color: bisque;">
+<mat-toolbar color="warn">
+    <mat-toolbar-row>
+      <p class="display-5" style="cursor: pointer;">Shaz Hoopla</p>
+      <span class="example-spacer"></span>
+      <span>Hey {{username}} <mat-icon>mood</mat-icon></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button mat-button name="back" (click)="goBack()">Back to shopping</button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  
+  <div *ngIf="orders!=0;else n">
+  <div style="background-color: bisque;">
+    <div class="row" >     
+      <div class="col-6 offset-3" *ngFor="let o of orders"><br>
+        <mat-card style="cursor: pointer;margin-top:10px; margin-bottom: 10px;" (click)="viewProd(o._id)">
+          <h5><u>You ordered:</u></h5> 
+             <strong class="text-primary">=> {{o.pName}} in color : {{o.color}} which has been describes as : {{o.pDescription}}</strong>
+             <p class="text-info">Delivery Status : Shipping</p>
+            </mat-card>
+          </div>
+          </div>
+      </div>   
+    </div>
+    <ng-template #n>     
+       <h4><i>&nbsp;No items purchased</i></h4> 
+    </ng-template>
+</body>
