@@ -20,6 +20,6 @@
     "gulp-eslint": "^6.0.0",
     "gulp-exit": "0.0.2",
     "gulp-jasmine": "^4.0.0",
-    "jasmine-reporters": "^2.3.2"
+    "jasmine-reporters": "^2.5.0"
   }
 }
